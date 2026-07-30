@@ -21,4 +21,4 @@ Code steps:
 2. Extract from matrix the genes needed for each clock by ENSG ID
 3. Calculate each clock & output scores to a csv file <br>
 <br>
-Note: if your gene matrix does not include all of the genes for each clock, we suggest imputing the base_mean value, provided in the gene lists, for each individual
+For missing genes: if your gene expression matrix does not include all of the genes to calculate each clock, we suggest imputing the base_mean value, provided in the gene lists, for each individual
